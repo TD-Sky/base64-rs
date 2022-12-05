@@ -1,0 +1,8 @@
+[package]
+name = "base64-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+smallvec = "1.10.0"
+thiserror = "1.0.37"
