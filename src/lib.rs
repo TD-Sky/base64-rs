@@ -1,5 +1,7 @@
 #![feature(iter_array_chunks)]
 
+type U6 = u8;
+
 pub mod alphabet;
 pub mod classic;
 pub mod decode;

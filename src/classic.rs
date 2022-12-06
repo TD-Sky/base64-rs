@@ -38,7 +38,7 @@ impl Alphabet for Standard {
 
 mod tests {
     #[test]
-    fn integrality() {
+    fn symmetry() {
         use super::Standard;
 
         let origin = b"runoob";

@@ -6,3 +6,10 @@ edition = "2021"
 [dependencies]
 smallvec = "1.10.0"
 thiserror = "1.0.37"
+
+[lib]
+name = "base64"
+
+[[bin]]
+name = "cli"
+path = "src/bin/cli.rs"
